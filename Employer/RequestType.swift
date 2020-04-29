@@ -10,5 +10,5 @@ import Foundation
 
 
 enum RequestType : String {
-    case lol = "lol"
+    case employees = "employees"
 }

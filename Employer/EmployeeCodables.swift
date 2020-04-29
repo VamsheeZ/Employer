@@ -9,7 +9,7 @@
 import Foundation
 
 struct EmployeeData : Codable {
-    let data : [Employee]
+    let data : [Employee]?
 }
 
 struct Employee : Codable {

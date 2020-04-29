@@ -11,7 +11,7 @@ import Foundation
 class Environment: NSObject {
     
     func getBaseURL() -> String {
-        return Bundle.main.object(forInfoDictionaryKey: "Base Url") as! String
+        return Bundle.main.object(forInfoDictionaryKey: "Base URL") as! String
     }
     
 }
